@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url(https://media.istockphoto.com/photos/basketball-texture-picture-id175995612?b=1&k=20&m=175995612&s=170667a&w=0&h=vvrod7leyMjuo_FiRLvlqSDt85BwzJqjBmqGonpAwEY=);
+    padding: 100px;
+    margin: 0 auto;
+}
+
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    min-height: 4200px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    font-weight: 900;
+    font-stretch: expanded;
+    font-style: initial;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 35px;
+    background: url(https://images.unsplash.com/photo-1612468552791-27742d57610b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center center / cover;
+    opacity: 0.9;
+    filter: brightness(90%);
+    color: indigo;
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100;
+    height: 100;
+    background: #000;
+
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://images.unsplash.com/photo-1508206661992-0a79b553e6d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(240, 240, 240);
+    margin: 7px 0;
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: olive;
+    font-weight: bold;
+    border-right: 1px solid black;
+    transition: background .6s ease;
+}
+
+.nav li a:hover {
+    background: rgb(196, 196, 196);
+}
+
+.content-wrapper{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.content {
+    width: 70%
+
+}
+
+.sidebar {
+    padding: 15px;
+    width: 30%
+   
+}
+
+.skills li {
+    padding: 16px 0;
+    transition: transform .5s ease;
+    color: indigo;
+    cursor: pointer;
+    border-left: 1px solid black;
+    font-size: 27px;
+}
+
+.skills li:hover {
+    transform: translateX(15px)
+
+}
+
+
+
+
